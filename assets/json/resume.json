@@ -1,24 +1,25 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "WEILUN CHANG",
+    "label": "Junior year student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "q124498935@gmail.com",
+    "secondaryEmail": "zlc2206@gapp.nthu.edu.tw",
+    "phone": "+886 935-345-785",
+    "url": "https://weilunchang0219.github.io",
+    "summary": "I am a junior year student at National Tsing Hua University, majoring in Power Mechanical Engineering (PME). I am passionate about robotics and have a strong interest in hardware development. I have experience in PCB layout design and mechanical design. Currently, I am working on a competition related to the EUROBOT 2025 and focusing on a humanoid robot for my Capstone Project. I am eager to learn and grow in the field of robotics and excited about the opportunity to contribute to innovative projects.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "No. 101-工程一館, Sec. 2, Guangfu Rd., East Dist., Hsinchu City 300044 , Taiwan (R.O.C.)",
+      "postalCode": "300044",
+      "city": "Hsinchu City",
+      "countryCode": "TAIWAN",
+      "region": "Hsinchu"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "張瑋倫",
+        "url": "https://www.linkedin.com/in/%E7%91%8B%E5%80%AB-%E5%BC%B5-92b073140/"
       }
     ]
   },
@@ -81,34 +82,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
