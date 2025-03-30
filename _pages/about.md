@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About me
+title: about
 permalink: /
 subtitle: NTHU Power Mechanical Engineering student
 
