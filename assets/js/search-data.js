@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
           title: "Projects",
           description: "A growing collection of my cool projects/designs.",
           section: "Navigation",
@@ -32,17 +39,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
