@@ -83,7 +83,8 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Autodesk Inventor",
-        "Autodesk AutoCAD"
+        "Autodesk AutoCAD",
+        "MasterCAM"
       ]
     },
     {
@@ -92,7 +93,26 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "EasyEDA",
-        "Altium Designer"
+        "Altium Designer",
+        "STM32 Microcontroller system board",
+        "ESP32 Microcontroller system board",
+        "Arduino Microcontroller system board",
+        "DC-DC Converter",
+        "Power management",
+        "Chassis control board"
+      ]
+    },
+    {
+      "name": "3D Printing",
+      "level": "Proficient",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "FDM PLA/PETG/TPU/PA-6",
+        "PLA-CF/PETG-CF/PA-6-CF",
+        "SLA resin",
+        "Bambu Lab studio",
+        "PrusaSlicer",
+        "Cura"
       ]
     },
     {
@@ -103,16 +123,26 @@
         "C/C++",
         "VSCode",
         "Arduino IDE",
-        "STM32",
-        "ESP32"
+        "PlatformIO",
+        "STM32CubeIDE",
+        "Markdown",
+        "Git/GitHub"
       ]
     },
     {
-      "name": "Mechanical Simulation",
+      "name": "Simulation",
       "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "ANSYS"
+      ]
+    },
+    {
+      "name": "Others",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Electrical Soldering",
+        "3D Printing Service"
       ]
     }
   ],
