@@ -63,7 +63,7 @@
       "endDate": "Present",
       "score": "3.09",
       "courses": [
-        "Mechanical Design/MEMS"
+        "Mechanical Design(精密機械製造學程)/MEMS(奈微米學程)"
       ]
     }
   ],
@@ -93,7 +93,6 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "EasyEDA",
-        "Altium Designer",
         "STM32 Microcontroller system board",
         "ESP32 Microcontroller system board",
         "Arduino Microcontroller system board",
