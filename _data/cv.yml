@@ -2,124 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: WEILUN CHANG
-    - name: Label
-      value: Junior year student
-    - name: Email
-      value: q124498935@gmail.com
-    - name: Secondary Email
-      value: zlc2206@gapp.nthu.edu.tw
-    - name: Phone
-      value: +886 935-345-785
-    - name: URL
-      value: https://weilunchang0219.github.io
-    - name: Summary
-      value: I am a junior year student at National Tsing Hua University, majoring in Power Mechanical Engineering (PME). I am passionate about robotics and have a strong interest in hardware development. I have experience in PCB layout design and mechanical design. Currently, I am working on a competition related to the EUROBOT 2025 and focusing on a humanoid robot for my Capstone Project. I am eager to learn and grow in the field of robotics and excited about the opportunity to contribute to innovative projects.
-    - name: Location
-      value: No. 101-工程一館, Sec. 2, Guangfu Rd., East Dist., Hsinchu City 300044 , Taiwan (R.O.C.)
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor in Power Mechanical Engineering
-      institution: National Tsing Hua University
-      location: Hsinchu City, Taiwan
-      url: https://www.pme.nthu.edu.tw/
-      year: 2022 - Present
-      score: 3.09
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Mechanical Design (精密機械製造學程)
-        - MEMS (奈微米學程)
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
-- title: Work Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Competition Manager
-      institution: DIT Robotics student team
-      location: NTHU, Taiwan
-      url: https://www.instagram.com/dit_robotics/
-      year: 2024 - Present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Responsible for overseeing the design and development of robots for the EUROBOT 2025 competition.
-        - Coordinating team efforts, managing timelines, and ensuring project objectives are met.
-        - Hands-on mechanical design, including CAD modeling, PCB layout design, and prototyping.
-        - Highlights:
-          - Mechanical design
-          - PCB layout design
-          - Project management
-    - title: Member
-      institution: DIT Robotics student team
-      location: NTHU, Taiwan
-      url: https://www.instagram.com/dit_robotics/
-      year: 2023 - 2024
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Involved in various aspects of robotics development, including mechanical design and prototyping.
-        - Worked closely with team members to ensure timely project completion.
-        - Highlights:
-          - Mechanical design
-          - Prototyping
+        - Description 1.
+        - Description 2.
 
-- title: Certificates
-  type: list
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
   contents:
-    - name: Autodesk Certified Professional: AutoCAD®
-      date: 2020-11-14
-      issuer: Autodesk
-      url: https://weilunchang0219.github.io/assets/pdf/autocad.pdf
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Skills
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
   type: nested_list
   contents:
-    - title: CAD Design
+    - title: Topic 1.
       items:
-        - Autodesk Inventor
-        - Autodesk AutoCAD
-        - MasterCAM
-    - title: PCB Design
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - EasyEDA
-        - STM32 Microcontroller system board
-        - ESP32 Microcontroller system board
-        - Arduino Microcontroller system board
-        - DC-DC Converter
-        - Power management
-        - Chassis control board
-    - title: 3D Printing
-      items:
-        - FDM PLA/PETG/TPU/PA-6
-        - PLA-CF/PETG-CF/PA-6-CF
-        - SLA resin
-        - Bambu Lab studio
-        - PrusaSlicer
-        - Cura
-    - title: Programming
-      items:
-        - C/C++
-        - VSCode
-        - Arduino IDE
-        - PlatformIO
-        - STM32CubeIDE
-        - Markdown
-        - Git/GitHub
-    - title: Simulation
-      items:
-        - ANSYS APDL
-    - title: Others
-      items:
-        - Electrical Soldering
-        - 3D Printing Service
+        - Description 1.
+        - Description 2.
 
-- title: Languages
+- title: Other Interests
   type: list
   contents:
-    - name: Mandarin Chinese
-      fluency: Native speaker
-    - name: English
-      fluency: TOEIC 750
-
-- title: Profiles
-  type: list
-  contents:
-    - network: LinkedIn
-      username: 張瑋倫
-      url: https://www.linkedin.com/in/%E7%91%8B%E5%80%AB-%E5%BC%B5-92b073140/
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
