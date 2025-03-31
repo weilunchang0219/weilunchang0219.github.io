@@ -149,12 +149,12 @@
     {
       "language": "Mandarin Chinese",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     },
     {
       "language": "English",
       "fluency": "TOEIC 750",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     }
   ]
 }
