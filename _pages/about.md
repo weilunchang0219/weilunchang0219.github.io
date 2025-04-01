@@ -6,7 +6,7 @@ subtitle: NTHU Power Mechanical Engineering student.
 
 profile:
   align: right
-  image: mypicture.JPG
+  image: mypicture.webp
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Email: q124498935@gmail.com</p>
