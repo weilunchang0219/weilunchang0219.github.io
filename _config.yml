@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: WEI-LUN
-middle_name: (Allen)
+middle_name:
 last_name: CHANG
 contact_note: >
   
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: WEILUN CHANG's page # blog_name will be displayed in your blog page
+blog_name: WEI-LUN CHANG's page # blog_name will be displayed in your blog page
 blog_description: a page for my research and projects # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
