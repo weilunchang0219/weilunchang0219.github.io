@@ -5,8 +5,63 @@ description: A customized power converter board for robots, featuring multi-outp
 img: assets/img/xl4015_pcb_main.jpg # <-- 請替換成你的主要圖片路徑
 importance: 1
 category: Competition # <-- 你可以修改成 Hardware, Robotics, Power Electronics 等
-related_publications: true # <-- 如果有相關連結請改為 true 並在文末補充
+related_publications: False # <-- 如果有相關連結請改為 true 並在文末補充
 ---
+
+
+<!-- English Version Starts (Short) -->
+
+## Project Overview
+
+This project is a custom PCB power distribution board for a robot.
+
+**Problem:** The robot needed multiple voltages (5V, 6V, 7.4V, 12V) from a single 18V battery. It also required an Emergency Stop (E-Stop) that *only* cuts power to motors/servos, not the main computer. Standard wiring for this would be very messy.
+
+**Solution:** I designed a PCB integrating 8x XL4015 buck converters and the E-Stop logic.
+*   **Outputs:** 5x 12V, 1x 7.4V, 1x 6V, 1x 5V (up to 5A each).
+*   **Manufacturing:** Designed schematic/layout, board professionally made by JLCPCB.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bucksch.png" title="Schematic" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bucklayout.png" title="PCB Layout" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Schematic and PCB layout design.
+</div>
+
+**Challenges & Learning:** Designing for high current required careful layout (trace widths, thickness of copper, etc).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_pcb_main.jpg" title="PCB Top" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_placeholder_pcb_bottom.jpg" title="PCB Bottom" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_placeholder_pcb_installed.jpg" title="Installed" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The final PCB (Top, Bottom, Installed views).
+</div>
+
+**Results:** The board works reliably, provides stable voltages, and the E-Stop functions correctly. Efficiency is ~80-85%. Needs fans for cooling under heavy load.
+
+**Open Source Files:**
+*   **OSHWlab Repository:** [Project Link](https://oshwlab.com/q124498935/18V-pcb)
+
+<!-- English Version Ends (Short) -->
+
+--- <!-- Optional: Separator -->
+
+<!-- Chinese Version Starts -->
+
+## 專案動機與目標
 
 ## 專案動機與目標
 
@@ -63,7 +118,7 @@ related_publications: true # <-- 如果有相關連結請改為 true 並在文�
     </div>
 </div>
 <div class="caption">
-    (請根據你的實際圖片修改說明) 左：PCB 正面展示了 XL4015 模組、電感、電容等主要元件。中：PCB 背面可見大面積鋪銅以增強散熱和電流承載能力。右：實際將 PCB 安裝於機器人底盤上的情況。
+    左：PCB 正面展示了 XL4015 模組、電感、電容等主要元件。中：PCB 背面可見大面積鋪銅以增強散熱和電流承載能力。右：實際將 PCB 安裝於機器人底盤上的情況。
 </div>
 
 ## 成果與未來工作
@@ -77,4 +132,13 @@ related_publications: true # <-- 如果有相關連結請改為 true 並在文�
 
 未來的改進方向可能包含進一步優化散熱設計、增加電壓/電流監控功能，或整合更多機器人所需的電源管理特性，並期待可以透過MCU進行電壓監控等功能。
 
-https://oshwlab.com/q124498935/18V-pcb
+## 開源檔案與設計資料
+
+我已經將此專案的設計檔案(包含 EasyEDA Pro 原理圖、PCB Layout) 開源，歡迎參考與交流，也提供DIT實驗室的學弟妹們參考：
+
+*   **OSHWlab Repository:** [點此前往專案 OSHWlab 頁面](https://oshwlab.com/q124498935/18V-pcb)
+
+<!-- Chinese Version Ends -->
+
+
+
