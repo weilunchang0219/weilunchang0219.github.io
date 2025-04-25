@@ -4,7 +4,7 @@ title: Self-made XL4015 Buck Converter Array PCB
 description: A customized power converter board for robots, featuring multi-output capability and emergency stop logic.
 img: assets/img/xl4015_pcb_main.jpg # <-- 請替換成你的主要圖片路徑
 importance: 1
-category: Custom PCB # <-- 你可以修改成 Hardware, Robotics, Power Electronics 等
+category: Competition # <-- 你可以修改成 Hardware, Robotics, Power Electronics 等
 related_publications: true # <-- 如果有相關連結請改為 true 並在文末補充
 ---
 
@@ -33,10 +33,10 @@ related_publications: true # <-- 如果有相關連結請改為 true 並在文�
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/schematic.png" title="電路原理圖 (Schematic)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bucksch.png" title="電路原理圖 (Schematic)" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/layout.png" title="PCB 佈局圖 (Layout)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bucklayout.png" title="PCB 佈局圖 (Layout)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,13 +53,13 @@ related_publications: true # <-- 如果有相關連結請改為 true 並在文�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_top.jpg" title="PCB 正面實體圖" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_pcb_main.jpg" title="PCB 正面實體圖" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_bottom.jpg" title="PCB 背面實體圖" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_placeholder_pcb_bottom.jpg" title="PCB 背面實體圖" class="img-fluid rounded z-depth-1" %} 
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_installed.jpg" title="安裝於機器人之照片" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
+        {% include figure.liquid loading="eager" path="assets/img/xl4015_placeholder_pcb_installed.jpg" title="安裝於機器人之照片" class="img-fluid rounded z-depth-1" %} 
     </div>
 </div>
 <div class="caption">
