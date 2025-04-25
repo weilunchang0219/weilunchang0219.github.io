@@ -1,81 +1,80 @@
 ---
 layout: page
-title: Self-made XL4015 Buck Converter array
-description: example page
-img: assets/img/12.jpg
+title: Self-made XL4015 Buck Converter Array PCB
+description: A customized power converter board for robots, featuring multi-output capability and emergency stop logic.
+img: assets/img/xl4015_pcb_main.jpg # <-- 請替換成你的主要圖片路徑
 importance: 1
-category: Competition
-related_publications: true
+category: Custom PCB # <-- 你可以修改成 Hardware, Robotics, Power Electronics 等
+related_publications: true # <-- 如果有相關連結請改為 true 並在文末補充
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## 專案動機與目標
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+在機器人設計中，我們經常面臨需要將單一電源 (例如 18V 工具電池) 轉換為多種不同電壓給各個致動器和感測器使用的情況。在這個專案中，我們的機器人需要 5V、6V、7.4V 和 12V 等多種電壓。此外，根據比賽的安全規範，我們必須實現一個緊急停止功能：當按下緊急開關時，所有致動器 (如馬達、伺服機) 必須立即斷電，但機載電腦、感測器、燈光等關鍵輔助系統則需維持運作。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+若使用市售的獨立降壓模組並透過外部線路實現此複雜的開關邏輯，會導致接線極為繁雜且容易出錯。為了解決這個問題，並提高系統的整合度和可靠性，我決定設計並製作一塊客製化的 PCB 電源板。
+
+這塊 PCB 的核心是整合了 8 個 XL4015 降壓轉換模組，並內建了所需的緊急停止開關邏輯，旨在提供穩定、可靠的多路電源輸出，同時簡化機器人內部的佈線。
+
+## 技術規格與設計
+
+* **輸入電壓:** 18V (來自工具機電池)
+* **輸出通道配置:**
+  * 5 路 12V 輸出
+  * 1 路 7.4V 輸出
+  * 1 路 6V 輸出
+  * 1 路 5V 輸出
+* **單通道最大設計電流:** 5A (根據 XL4015 Datasheet)
+* **預估整體效率:** 約 80% ~ 85%
+* **核心晶片:** 8x XL4015
+* **特殊功能:** 內建緊急停止邏輯，可獨立切斷致動器電源。
+
+設計過程中，我參考了 XL4015 的官方 Datasheet，並根據特定開關邏輯和供電需求繪製了電路原理圖與 PCB 佈局圖。
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/schematic.png" title="電路原理圖 (Schematic)" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/layout.png" title="PCB 佈局圖 (Layout)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    左側為電路原理圖，定義了元件連接與電源路徑。右側為 PCB 佈局圖，展示了元件的實際擺放位置與走線。
+</div>
+
+## 製作過程與挑戰
+
+考量到此 PCB 涉及較大電流的操作，為了確保焊接品質與系統穩定性，避免因手工焊接失誤損壞昂貴的機器人硬體，我選擇委託專業的 PCB 製造商 (JLCPCB) 進行 PCBA (PCB Assembly) 的生產。
+
+在 PCB Layout 設計階段，我深刻體會到經驗累積的重要性，尤其是在處理大電流路徑時。線寬的選擇、銅箔厚度、鋪銅策略以及散熱孔的設計都需要仔細考量。我們透過查閱 CSDN、Reddit 等技術論壇以及 AI 工具的輔助，學習了許多 PCB 佈局的技巧。
+
+例如，初期在佈局時，未注意到在傳統插件式電感的正下方進行了大面積鋪銅，這可能會干擾電感值。經過修正，我改用了屏蔽式電感，以減少鋪銅層對其電感值的影響，提高電源轉換的穩定性與準確度。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_top.jpg" title="PCB 正面實體圖" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_bottom.jpg" title="PCB 背面實體圖" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/placeholder_pcb_installed.jpg" title="安裝於機器人之照片" class="img-fluid rounded z-depth-1" %} # <-- 請替換圖片路徑
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    (請根據你的實際圖片修改說明) 左：PCB 正面展示了 XL4015 模組、電感、電容等主要元件。中：PCB 背面可見大面積鋪銅以增強散熱和電流承載能力。右：實際將 PCB 安裝於機器人底盤上的情況。
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## 成果與未來工作
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+這塊客製化的 XL4015 降壓轉換器陣列 PCB 成功地整合了多路電源輸出與緊急停止邏輯，有效解決了原先複雜的佈線問題，並提高了機器人電源系統的可靠性。
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* **效能驗證:** 各路輸出在不同負載下的電壓穩定性極高，目前我製作了五塊板子，本想著可能整個賽季會弄壞不少塊，結果除了一塊是我自己正負極看錯外，目前板子已經使用了約三個月，整體非常穩定，都沒有壞掉。
+* **效率測試:** 實際測量的轉換效率約為80-85%，略低於官方的93%。
+* **散熱表現:** 在滿載測試中的晶片溫度可能會來到80-90度，因此我於電板上新增了散熱風扇的設計。
+* **功能驗證:** 緊急停止開關可以完美的關閉所有致動器而不影響機上電腦等重要設備的運行。
 
-{% raw %}
+未來的改進方向可能包含進一步優化散熱設計、增加電壓/電流監控功能，或整合更多機器人所需的電源管理特性，並期待可以透過MCU進行電壓監控等功能。
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+https://oshwlab.com/q124498935/18V-pcb
