@@ -1,10 +1,10 @@
 ---
 layout: page
-title: EXAMPLE
+title: Self-made XL4015 Buck Converter array
 description: example page
 img: assets/img/12.jpg
 importance: 1
-category: Course project
+category: Competition
 related_publications: true
 ---
 

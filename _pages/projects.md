@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects/designs.
 nav: true
 nav_order: 3
-display_categories: [Course project, Just for fun, Competition]
+display_categories: [Competition, Course project, Just for fun]
 horizontal: false 
 ---
 
