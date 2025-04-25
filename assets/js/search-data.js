@@ -59,9 +59,9 @@ ninja.data = [{
           description: "example page",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-self-made-xl4015-buck-converter-array",
-          title: 'Self-made XL4015 Buck Converter array',
-          description: "example page",
+            },},{id: "projects-self-made-xl4015-buck-converter-array-pcb",
+          title: 'Self-made XL4015 Buck Converter Array PCB',
+          description: "A customized power converter board for robots, featuring multi-output capability and emergency stop logic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_competition_buck_converter/";
             },},{
