@@ -124,7 +124,7 @@ The board significantly better than commercial development boards like NUCLEO F4
 
 我已經將此專案的設計檔案(包含 EasyEDA Pro 原理圖、PCB Layout) 開源，歡迎參考與交流，也提供DIT實驗室的學弟妹們參考：
 
-* **OSHWlab Repository:** [點此前往專案 OSHWlab 頁面](https://oshwlab.com/q124498935/18V-pcb)
+* **OSHWlab Repository:** [點此前往專案 OSHWlab 頁面](https://oshwlab.com/q124498935/2025_dit_eurobot_mission_-mcu_board)
 
 ---
 
