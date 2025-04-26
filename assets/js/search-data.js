@@ -64,6 +64,11 @@ ninja.data = [{
           description: "A customized power converter board for robots, featuring multi-output capability and emergency stop logic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_competition_buck_converter/";
+            },},{id: "projects-stm32-f446re-robot-mission-control-board",
+          title: 'STM32 F446RE Robot Mission Control Board',
+          description: "A compact, highly-integrated STM32F446RE-based controller for multi-servo, sensor, and MOSFET control, designed for robot applications.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_competition_mission_pcb/";
             },},{
         id: 'social-email',
         title: 'email',
