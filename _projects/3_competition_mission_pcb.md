@@ -23,6 +23,9 @@ This is a custom-designed mission control board for robotics applications, featu
 
 The board significantly better than commercial development boards like NUCLEO F446RE in terms of space efficiency and integration, eliminating unnecessary components while preserving all required functionality for robot control applications.
 
+**Open Source Files:**
+*   **OSHWlab Repository:** [Project Link](https://oshwlab.com/q124498935/2025_dit_eurobot_mission_-mcu_board)
+
 <!-- English Version Ends -->
 
 ---

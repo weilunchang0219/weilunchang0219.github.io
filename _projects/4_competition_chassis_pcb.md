@@ -10,6 +10,9 @@ related_publications: false
 
 This project features a custom-designed robot chassis control board for the Eurobot competition. The innovative design integrates both logic circuits and high-current motor drivers on a single PCB, shaped to fit the chassis perfectly. The board successfully controls a four-wheel omnidirectional drive system with eight encoders (four for motors and four for odometry), significantly improving space utilization and wiring efficiency.
 
+**Open Source Files:**
+*   **OSHWlab Repository:** [Project Link](https://oshwlab.com/q124498935/2025_dit_chassis_board)
+
 # 機器人底盤控制板設計與實作測試
 
 ## 關於此PCB
