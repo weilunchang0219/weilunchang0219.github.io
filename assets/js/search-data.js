@@ -69,6 +69,11 @@ ninja.data = [{
           description: "A compact, highly-integrated STM32F446RE-based controller for multi-servo, sensor, and MOSFET control, designed for robot applications.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_competition_mission_pcb/";
+            },},{id: "projects-robot-chassis-control-board",
+          title: 'Robot Chassis Control Board',
+          description: "為Eurobot比賽設計的整合式底盤控制系統",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_competition_chassis_pcb/";
             },},{
         id: 'social-email',
         title: 'email',
