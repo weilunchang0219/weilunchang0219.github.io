@@ -128,6 +128,6 @@ The board significantly better than commercial development boards like NUCLEO F4
 
 ---
 
-這塊自製任務控制板配合自製 XL4015 配電板，讓機器人供電與控制系統高度整合且，很適合緊湊的機構設計。
+這塊自製任務控制板配合自製 XL4015 配電板，讓機器人供電與控制系統高度整合且很適合緊湊的機構設計。
 
 ---
