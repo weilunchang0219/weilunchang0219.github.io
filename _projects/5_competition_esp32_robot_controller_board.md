@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ESP32-S3 小型機器人控制板
-description: 基於ESP32-S3-WROOM-1U-N16R8所設計的高度整合控制板，集成步進馬達驅動、多種感測器接口和電源管理，專為Eurobot競賽設計。
-img: assets/img/PCB_selfie.jpg # <-- 請替換成你的主要圖片路徑
+title: ESP32-S3 Small Robot Controller board
+description: A customized PCB board based on the ESP32-S3 chip and integrated with several actuators and sensor interfaces.
+img: assets/img/sima_pcb_3d.png # <-- 請替換成你的主要圖片路徑
 importance: 1
 category: Competition
 related_publications: false
@@ -25,7 +25,7 @@ This is a custom-designed compact robot controller board based on the ESP32-S3-W
 - Auto-programming circuit for firmware updates
 - External antenna support for improved wireless connectivity
 
-The board is significantly more compact than commercial ESP32 development boards, eliminating unnecessary components while preserving all required functionality for small robot applications in competitive environments like Eurobot2025.
+The board is significantly more compact than commercial ESP32 development boards, removing unnecessary components while preserving all required functionality for small robot applications in competitive environments like Eurobot2025.
 
 **Open Source Files:**
 * **OSHWlab Repository:** [Project Link](https://oshwlab.com/q124498935/18V-pcb)

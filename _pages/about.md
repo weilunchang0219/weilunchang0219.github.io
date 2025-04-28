@@ -41,5 +41,5 @@ I have a superpower, I learn new things fast, I have strong motivation to learn,
 {% include figure.liquid loading="eager" path="assets/img/learn_things_fast.png" title="我學很快的證明" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-我學很快的證明(截圖日期:4/25，但其實我大概花兩個月就做了好幾塊電路板)!
+我學很快的例子(截圖日期:4/25，但其實我大概花兩個月就做了好幾塊電路板)!
 </div>
