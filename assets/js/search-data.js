@@ -74,9 +74,9 @@ ninja.data = [{
           description: "為Eurobot比賽設計的整合式底盤控制系統",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_competition_chassis_pcb/";
-            },},{id: "projects-esp32-s3-小型機器人控制板",
-          title: 'ESP32-S3 小型機器人控制板',
-          description: "基於ESP32-S3-WROOM-1U-N16R8所設計的高度整合控制板，集成步進馬達驅動、多種感測器接口和電源管理，專為Eurobot競賽設計。",
+            },},{id: "projects-esp32-s3-small-robot-controller-board",
+          title: 'ESP32-S3 Small Robot Controller board',
+          description: "A customized PCB board based on the ESP32-S3 chip and integrated with several actuators and sensor interfaces.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_competition_esp32_robot_controller_board/";
             },},{
