@@ -72,7 +72,7 @@ This project features a custom-designed robot chassis control board for the Euro
 
 ### PCB外形設計創新
 
-在設計具有特殊外形的PCB時，我發現EasyEDA Pro直接繪製複雜板框相當困難。為解決這個問題，我想到一個滿奇葩的繪製方法：
+在設計具有特殊外形的PCB時，我發現EasyEDA Pro直接繪製複雜板框相當困難，基本上內建的功能大概只能繪製簡單的外型。為解決這個問題，我想到一個滿奇葩的繪製方法：
 
 1. 首先使用AutoCAD繪製精確的板框形狀
 2. 將DWG文件匯入EasyEDA進行後續電路設計
