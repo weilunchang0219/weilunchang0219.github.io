@@ -83,10 +83,10 @@ Eurobot競賽對機器人尺寸有嚴格限制，市售開發板往往體積過�
 
 <div class="row justify-content-sm-center">
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/robot_pcb_sch.png" title="控制板原理圖" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/sima_pcb_sch.png" title="控制板原理圖" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/robot_pcb_layout.png" title="控制板PCB佈局" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/sima_pcb_layout.png" title="控制板PCB佈局" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -97,13 +97,13 @@ Eurobot競賽對機器人尺寸有嚴格限制，市售開發板往往體積過�
 
 <div class="row">
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/robot_pcb_top.jpg" title="控制板正面實體圖" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/sima_top.jpg" title="控制板正面實體圖" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/robot_pcb_back.jpg" title="控制板背面實體圖" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/sima_back.jpg" title="控制板背面實體圖" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="col-sm mt-3 mt-md-0">
-{% include figure.liquid loading="eager" path="assets/img/PCB_selfie.jpg" title="控制板3D渲染圖" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/sima_pcb_3d.png" title="控制板3D渲染圖" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -158,7 +158,7 @@ Eurobot競賽對機器人尺寸有嚴格限制，市售開發板往往體積過�
 
 本專案已開源，包括原理圖、PCB設計文件和相關文檔，可通過以下連結獲取：
 
-* **OSHWlab Repository:** [https://oshwlab.com/q124498935/18V-pcb](https://oshwlab.com/q124498935/18V-pcb)
+* **OSHWlab Repository:** [點此前往專案 OSHWlab 頁面](https://oshwlab.com/q124498935/2025_dit_sima_board)
 
 ---
 
